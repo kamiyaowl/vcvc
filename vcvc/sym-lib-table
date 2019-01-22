@@ -1,0 +1,4 @@
+(sym_lib_table
+  (lib (name njm7223)(type Legacy)(uri ${KIPRJMOD}/njm7223.lib)(options "")(descr ""))
+  (lib (name r_variable)(type Legacy)(uri ${KIPRJMOD}/r_variable.lib)(options "")(descr ""))
+)
