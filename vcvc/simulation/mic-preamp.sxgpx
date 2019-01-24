@@ -1,0 +1,819 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Graph version="1.00" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" ID="1" xsi:schemaLocation="http://simetrix.co.uk/schemas/application/waveform https://simetrix.co.uk/schemas/application/waveform.xsd" xmlns="http://simetrix.co.uk/schemas/application/waveform/" rev="1">
+ <Grid ID="2">
+  <Axis subtype="X" ID="3">
+   <Property name="AutoLimit" value="On"/>
+   <Property name="Delta" value="0.0"/>
+   <Property name="ExpandToFitLabel" value="true"/>
+   <Property name="Grad" value="Log"/>
+   <Property name="GUID" value="{c3314709-ea58-435b-8ee5-7918eb18a1de}"/>
+   <Property name="Label" value="%DefaultLabel%"/>
+   <Property ascii_value="39810.7170553" name="Max" type="real" value="sQ8e8lZw40A="/>
+   <Property ascii_value="10" name="Min" type="real" value="AAAAAAAAJEA="/>
+   <Property name="ProbeId" value=""/>
+   <Property name="SharedID" value="4"/>
+   <Property name="Unit" value="%DefaultUnit%"/>
+  </Axis>
+  <Axis subtype="Y" ID="5">
+   <Property name="AutoLimit" value="On"/>
+   <Property name="Delta" value="0.0"/>
+   <Property name="ExpandToFitLabel" value="true"/>
+   <Property name="Grad" value="Log"/>
+   <Property name="GUID" value="{3cfea1ee-84e5-497d-9801-00cbed98a9ed}"/>
+   <Property name="Label" value="%DefaultLabel%"/>
+   <Property ascii_value="893.816726735" name="Max" type="real" value="mcQGqIjui0A="/>
+   <Property ascii_value="0.0664476867372" name="Min" type="real" value="SmZuMbcCsT8="/>
+   <Property name="ProbeId" value=""/>
+   <Property name="SharedID" value="5"/>
+   <Property name="Unit" value="%DefaultUnit%"/>
+  </Axis>
+  <Curve ID="7">
+   <CurveData ID="8">
+    <Property name="Curve" value="7"/>
+    <Property name="GUID" value="{0edaecfe-cf97-48e9-a39b-92a4ceaa6bdc}"/>
+    <Property name="LineStyle" value="auto"/>
+   </CurveData>
+   <Property name="Alpha" value="75"/>
+   <Property name="CreateTime" value="1548319156220"/>
+   <Property name="DisplayType" value="analog"/>
+   <Property name="ForceFastRender" value="false"/>
+   <Property name="GUID" value="{df052ddb-9419-4bd7-950f-2964a46c6abc}"/>
+   <Property name="Hidden" value="false"/>
+   <Property name="Highlight" value="false"/>
+   <Property name="HighlightColour" value="#ff00ff"/>
+   <Property name="HighlightedDivisions" value=""/>
+   <Property name="Label" value="%DefaultLabel%"/>
+   <Property name="LineStyle" value="solid"/>
+   <Property name="MeasureSpec" value=""/>
+   <Property name="Name" value="V4-pos"/>
+   <Property name="ProbeInst" value=""/>
+   <Property name="ProbePersistence" value="-1"/>
+   <Property name="RGBColour" value="255"/>
+   <Property name="Selected" value="false"/>
+   <Property name="Sequence" value="1"/>
+   <Property name="ShowPoints" value="false"/>
+   <Property name="Suffix" value=""/>
+   <Property name="UserPersistence" value="-1"/>
+   <Property name="UserProbeId" value=""/>
+   <Property name="UseSequenceColour" value="true"/>
+   <Property name="Visible" value="true"/>
+   <Property name="XAxis" value="3"/>
+   <Property name="XUnit" value="Hertz"/>
+   <Property name="YAxis" value="5"/>
+   <Property name="YUnit" value="V"/>
+   <CurveVector XExpression="Frequency" YUnits="V" YUnitsOverride="0" SourceName="ac1" Expression=":V4_P" SweepType="None" XUnitsOverride="0" AnalysisName="Small signal AC" XUnits="Hertz" XYData="0">
+    <SxData sxid="0" version="82"><![CDATA[
+AgA4mvELAAAAAAcAAABWZWNEYXRhAgBbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQBQAAAAAAAAAAAAAA
+AAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8A
+AAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAA
+APA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAA
+AAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAA
+AAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8A
+AAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAA
+APA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAA
+AAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAA
+AAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8A
+AAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAA
+APA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAA
+AAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAA
+AAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8A
+AAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAA
+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
+Y3k=
+]]></SxData>
+   </CurveVector>
+  </Curve>
+  <Curve ID="9">
+   <CurveData ID="10">
+    <Property name="Curve" value="9"/>
+    <Property name="GUID" value="{a4f8cd1c-82cc-4ed0-b258-2827bf865c00}"/>
+    <Property name="LineStyle" value="auto"/>
+   </CurveData>
+   <Property name="Alpha" value="75"/>
+   <Property name="CreateTime" value="1548319165062"/>
+   <Property name="DisplayType" value="analog"/>
+   <Property name="ForceFastRender" value="false"/>
+   <Property name="GUID" value="{7cc7a41d-974b-4089-a714-39ae50b2853f}"/>
+   <Property name="Hidden" value="false"/>
+   <Property name="Highlight" value="false"/>
+   <Property name="HighlightColour" value="#ff00ff"/>
+   <Property name="HighlightedDivisions" value=""/>
+   <Property name="Label" value="%DefaultLabel%"/>
+   <Property name="LineStyle" value="solid"/>
+   <Property name="MeasureSpec" value=""/>
+   <Property name="Name" value="X1-out"/>
+   <Property name="ProbeInst" value=""/>
+   <Property name="ProbePersistence" value="-1"/>
+   <Property name="RGBColour" value="32768"/>
+   <Property name="Selected" value="false"/>
+   <Property name="Sequence" value="2"/>
+   <Property name="ShowPoints" value="false"/>
+   <Property name="Suffix" value=""/>
+   <Property name="UserPersistence" value="-1"/>
+   <Property name="UserProbeId" value=""/>
+   <Property name="UseSequenceColour" value="true"/>
+   <Property name="Visible" value="true"/>
+   <Property name="XAxis" value="3"/>
+   <Property name="XUnit" value="Hertz"/>
+   <Property name="YAxis" value="5"/>
+   <Property name="YUnit" value="V"/>
+   <CurveVector XExpression="Frequency" YUnits="V" YUnitsOverride="0" SourceName="ac1" Expression=":R4_P" SweepType="None" XUnitsOverride="0" AnalysisName="Small signal AC" XUnits="Hertz" XYData="0">
+    <SxData sxid="1" version="82"><![CDATA[
+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
+AAAARnJlcXVlbmN5
+]]></SxData>
+   </CurveVector>
+  </Curve>
+  <Curve ID="11">
+   <CurveData ID="12">
+    <Property name="Curve" value="11"/>
+    <Property name="GUID" value="{18806320-2682-4180-850c-cd004ae2b49e}"/>
+    <Property name="LineStyle" value="auto"/>
+   </CurveData>
+   <Property name="Alpha" value="75"/>
+   <Property name="CreateTime" value="1548319197651"/>
+   <Property name="DisplayType" value="analog"/>
+   <Property name="ForceFastRender" value="false"/>
+   <Property name="GUID" value="{3eaf6869-6960-493e-9648-bdc2fd4bd6a9}"/>
+   <Property name="Hidden" value="false"/>
+   <Property name="Highlight" value="false"/>
+   <Property name="HighlightColour" value="#ff00ff"/>
+   <Property name="HighlightedDivisions" value=""/>
+   <Property name="Label" value="%DefaultLabel%"/>
+   <Property name="LineStyle" value="solid"/>
+   <Property name="MeasureSpec" value=""/>
+   <Property name="Name" value="X1-out"/>
+   <Property name="ProbeInst" value=""/>
+   <Property name="ProbePersistence" value="-1"/>
+   <Property name="RGBColour" value="16711680"/>
+   <Property name="Selected" value="false"/>
+   <Property name="Sequence" value="3"/>
+   <Property name="ShowPoints" value="false"/>
+   <Property name="Suffix" value=""/>
+   <Property name="UserPersistence" value="-1"/>
+   <Property name="UserProbeId" value=""/>
+   <Property name="UseSequenceColour" value="true"/>
+   <Property name="Visible" value="true"/>
+   <Property name="XAxis" value="3"/>
+   <Property name="XUnit" value="Hertz"/>
+   <Property name="YAxis" value="5"/>
+   <Property name="YUnit" value="V"/>
+   <CurveVector XExpression="Frequency" YUnits="V" YUnitsOverride="0" SourceName="ac2" Expression=":R4_P" SweepType="None" XUnitsOverride="0" AnalysisName="Small signal AC" XUnits="Hertz" XYData="0">
+    <SxData sxid="2" version="82"><![CDATA[
+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
+Y3k=
+]]></SxData>
+   </CurveVector>
+  </Curve>
+  <Curve ID="13">
+   <CurveData ID="14">
+    <Property name="Curve" value="13"/>
+    <Property name="GUID" value="{407d6820-2da6-421d-8180-6b3fa31a513e}"/>
+    <Property name="LineStyle" value="auto"/>
+   </CurveData>
+   <Property name="Alpha" value="75"/>
+   <Property name="CreateTime" value="1548319213644"/>
+   <Property name="DisplayType" value="analog"/>
+   <Property name="ForceFastRender" value="false"/>
+   <Property name="GUID" value="{df33a469-70b5-4a30-a2c6-5921e4ad8629}"/>
+   <Property name="Hidden" value="false"/>
+   <Property name="Highlight" value="false"/>
+   <Property name="HighlightColour" value="#ff00ff"/>
+   <Property name="HighlightedDivisions" value=""/>
+   <Property name="Label" value="%DefaultLabel%"/>
+   <Property name="LineStyle" value="solid"/>
+   <Property name="MeasureSpec" value=""/>
+   <Property name="Name" value="X1-out"/>
+   <Property name="ProbeInst" value=""/>
+   <Property name="ProbePersistence" value="-1"/>
+   <Property name="RGBColour" value="32896"/>
+   <Property name="Selected" value="false"/>
+   <Property name="Sequence" value="4"/>
+   <Property name="ShowPoints" value="false"/>
+   <Property name="Suffix" value=""/>
+   <Property name="UserPersistence" value="-1"/>
+   <Property name="UserProbeId" value=""/>
+   <Property name="UseSequenceColour" value="true"/>
+   <Property name="Visible" value="true"/>
+   <Property name="XAxis" value="3"/>
+   <Property name="XUnit" value="Hertz"/>
+   <Property name="YAxis" value="5"/>
+   <Property name="YUnit" value="V"/>
+   <CurveVector XExpression="Frequency" YUnits="V" YUnitsOverride="0" SourceName="ac3" Expression=":R4_P" SweepType="None" XUnitsOverride="0" AnalysisName="Small signal AC" XUnits="Hertz" XYData="0">
+    <SxData sxid="3" version="82"><![CDATA[
+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
+Y3k=
+]]></SxData>
+   </CurveVector>
+  </Curve>
+  <Curve ID="15">
+   <CurveData ID="16">
+    <Property name="Curve" value="15"/>
+    <Property name="GUID" value="{55e55900-6c61-4554-9278-ed454b9f80b8}"/>
+    <Property name="LineStyle" value="auto"/>
+   </CurveData>
+   <Property name="Alpha" value="75"/>
+   <Property name="CreateTime" value="1548319303770"/>
+   <Property name="DisplayType" value="analog"/>
+   <Property name="ForceFastRender" value="false"/>
+   <Property name="GUID" value="{ced0664e-c151-4b4e-83cf-dee7507d4798}"/>
+   <Property name="Hidden" value="false"/>
+   <Property name="Highlight" value="false"/>
+   <Property name="HighlightColour" value="#ff00ff"/>
+   <Property name="HighlightedDivisions" value=""/>
+   <Property name="Label" value="%DefaultLabel%"/>
+   <Property name="LineStyle" value="solid"/>
+   <Property name="MeasureSpec" value=""/>
+   <Property name="Name" value="X1-out"/>
+   <Property name="ProbeInst" value=""/>
+   <Property name="ProbePersistence" value="-1"/>
+   <Property name="RGBColour" value="8421376"/>
+   <Property name="Selected" value="false"/>
+   <Property name="Sequence" value="5"/>
+   <Property name="ShowPoints" value="false"/>
+   <Property name="Suffix" value=""/>
+   <Property name="UserPersistence" value="-1"/>
+   <Property name="UserProbeId" value=""/>
+   <Property name="UseSequenceColour" value="true"/>
+   <Property name="Visible" value="true"/>
+   <Property name="XAxis" value="3"/>
+   <Property name="XUnit" value="Hertz"/>
+   <Property name="YAxis" value="5"/>
+   <Property name="YUnit" value="V"/>
+   <CurveVector XExpression="Frequency" YUnits="V" YUnitsOverride="0" SourceName="ac4" Expression=":R4_P" SweepType="None" XUnitsOverride="0" AnalysisName="Small signal AC" XUnits="Hertz" XYData="0">
+    <SxData sxid="4" version="82"><![CDATA[
+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
+Y3k=
+]]></SxData>
+   </CurveVector>
+  </Curve>
+  <Curve ID="17">
+   <CurveData ID="18">
+    <Property name="Curve" value="17"/>
+    <Property name="GUID" value="{34a6be56-d83a-403a-8afb-4fb939bdcfc1}"/>
+    <Property name="LineStyle" value="auto"/>
+   </CurveData>
+   <Property name="Alpha" value="75"/>
+   <Property name="CreateTime" value="1548319605736"/>
+   <Property name="DisplayType" value="analog"/>
+   <Property name="ForceFastRender" value="false"/>
+   <Property name="GUID" value="{ff7e28ab-175c-4645-a412-9c6f6fc23bcb}"/>
+   <Property name="Hidden" value="false"/>
+   <Property name="Highlight" value="false"/>
+   <Property name="HighlightColour" value="#ff00ff"/>
+   <Property name="HighlightedDivisions" value=""/>
+   <Property name="Label" value="%DefaultLabel%"/>
+   <Property name="LineStyle" value="solid"/>
+   <Property name="MeasureSpec" value=""/>
+   <Property name="Name" value="V4-pos"/>
+   <Property name="ProbeInst" value=""/>
+   <Property name="ProbePersistence" value="-1"/>
+   <Property name="RGBColour" value="8388736"/>
+   <Property name="Selected" value="false"/>
+   <Property name="Sequence" value="6"/>
+   <Property name="ShowPoints" value="false"/>
+   <Property name="Suffix" value=""/>
+   <Property name="UserPersistence" value="-1"/>
+   <Property name="UserProbeId" value=""/>
+   <Property name="UseSequenceColour" value="true"/>
+   <Property name="Visible" value="true"/>
+   <Property name="XAxis" value="3"/>
+   <Property name="XUnit" value="Hertz"/>
+   <Property name="YAxis" value="5"/>
+   <Property name="YUnit" value="V"/>
+   <CurveVector XExpression="Frequency" YUnits="V" YUnitsOverride="0" SourceName="ac5" Expression=":R6_N" SweepType="None" XUnitsOverride="0" AnalysisName="Small signal AC" XUnits="Hertz" XYData="0">
+    <SxData sxid="5" version="82"><![CDATA[
+AgDIFEQRAAAAAAcAAABWZWNEYXRhAgBbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQBQAAAAAAAAAAAAAA
+AAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8A
+AAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAA
+APA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAA
+AAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAA
+AAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8A
+AAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAA
+APA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAA
+AAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAA
+AAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8A
+AAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAA
+APA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAA
+AAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAA
+AAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8A
+AAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAA
+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
+Y3k=
+]]></SxData>
+   </CurveVector>
+  </Curve>
+  <Curve ID="19">
+   <CurveData ID="20">
+    <Property name="Curve" value="19"/>
+    <Property name="GUID" value="{d8ffb55c-b22c-46d0-a7bc-36f690491c70}"/>
+    <Property name="LineStyle" value="auto"/>
+   </CurveData>
+   <Property name="Alpha" value="75"/>
+   <Property name="CreateTime" value="1548319610502"/>
+   <Property name="DisplayType" value="analog"/>
+   <Property name="ForceFastRender" value="false"/>
+   <Property name="GUID" value="{183a9d63-959c-4ad0-856e-d567c59cb5f8}"/>
+   <Property name="Hidden" value="false"/>
+   <Property name="Highlight" value="false"/>
+   <Property name="HighlightColour" value="#ff00ff"/>
+   <Property name="HighlightedDivisions" value=""/>
+   <Property name="Label" value="%DefaultLabel%"/>
+   <Property name="LineStyle" value="solid"/>
+   <Property name="MeasureSpec" value=""/>
+   <Property name="Name" value="X1-out"/>
+   <Property name="ProbeInst" value=""/>
+   <Property name="ProbePersistence" value="-1"/>
+   <Property name="RGBColour" value="128"/>
+   <Property name="Selected" value="false"/>
+   <Property name="Sequence" value="7"/>
+   <Property name="ShowPoints" value="false"/>
+   <Property name="Suffix" value=""/>
+   <Property name="UserPersistence" value="-1"/>
+   <Property name="UserProbeId" value=""/>
+   <Property name="UseSequenceColour" value="true"/>
+   <Property name="Visible" value="true"/>
+   <Property name="XAxis" value="3"/>
+   <Property name="XUnit" value="Hertz"/>
+   <Property name="YAxis" value="5"/>
+   <Property name="YUnit" value="V"/>
+   <CurveVector XExpression="Frequency" YUnits="V" YUnitsOverride="0" SourceName="ac5" Expression=":R4_P" SweepType="None" XUnitsOverride="0" AnalysisName="Small signal AC" XUnits="Hertz" XYData="0">
+    <SxData sxid="6" version="82"><![CDATA[
+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
+AAAARnJlcXVlbmN5
+]]></SxData>
+   </CurveVector>
+  </Curve>
+  <Curve ID="21">
+   <CurveData ID="22">
+    <Property name="Curve" value="21"/>
+    <Property name="GUID" value="{4fddb0d1-c388-4714-a198-d7e73307648e}"/>
+    <Property name="LineStyle" value="auto"/>
+   </CurveData>
+   <Property name="Alpha" value="75"/>
+   <Property name="CreateTime" value="1548319638869"/>
+   <Property name="DisplayType" value="analog"/>
+   <Property name="ForceFastRender" value="false"/>
+   <Property name="GUID" value="{51cd78d8-aedf-436e-8671-05dae9809fac}"/>
+   <Property name="Hidden" value="false"/>
+   <Property name="Highlight" value="false"/>
+   <Property name="HighlightColour" value="#ff00ff"/>
+   <Property name="HighlightedDivisions" value=""/>
+   <Property name="Label" value="%DefaultLabel%"/>
+   <Property name="LineStyle" value="solid"/>
+   <Property name="MeasureSpec" value=""/>
+   <Property name="Name" value="V4-pos"/>
+   <Property name="ProbeInst" value=""/>
+   <Property name="ProbePersistence" value="-1"/>
+   <Property name="RGBColour" value="8388608"/>
+   <Property name="Selected" value="false"/>
+   <Property name="Sequence" value="8"/>
+   <Property name="ShowPoints" value="false"/>
+   <Property name="Suffix" value=""/>
+   <Property name="UserPersistence" value="-1"/>
+   <Property name="UserProbeId" value=""/>
+   <Property name="UseSequenceColour" value="true"/>
+   <Property name="Visible" value="true"/>
+   <Property name="XAxis" value="3"/>
+   <Property name="XUnit" value="Hertz"/>
+   <Property name="YAxis" value="5"/>
+   <Property name="YUnit" value="V"/>
+   <CurveVector XExpression="Frequency" YUnits="V" YUnitsOverride="0" SourceName="ac6" Expression=":R6_N" SweepType="None" XUnitsOverride="0" AnalysisName="Small signal AC" XUnits="Hertz" XYData="0">
+    <SxData sxid="7" version="82"><![CDATA[
+AgDoakYRAAAAAAcAAABWZWNEYXRhAgBbAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADQBQAAAAAAAAAAAAAA
+AAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8A
+AAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAA
+APA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAA
+AAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAA
+AAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8A
+AAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAA
+APA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAA
+AAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAA
+AAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8A
+AAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAA
+APA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAA
+AAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAA
+AAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8A
+AAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAA
+APA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAA
+AAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAA
+AAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8A
+AAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAA
+APA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAA
+AAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAA
+AAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8A
+AAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAA
+APA/AAAAAAAAAAAAAAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAA
+AAAAAADwPwAAAAAAAAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAPA/AAAAAAAAAAAAAAAAAADwPwAAAAAA
+AAAAAAAAAAAA8D8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB
+AQAAAAAAAAAAAAAAAAAAAP//////////BQAAADpSNl9OBQCoYUYRAAAAAAcAAABWZWNEYXRhAQBbAAAA
+AAAAAAAAAAAAAAAAAAAAAAAAAAD4AgAAAAAAAAAAAAAAAAAAAAAAAAAAJEC2Pbjm9+0lQK6DLAqYCyhA
+uaDseHldKkB31PnQpugsQGl4iTSnsi9AFWewJsVgMUD3pXK8+g0zQEDGwByZ5DRAzQRhBp/oNkB8/0nk
+bR45QFFrsVLTijtAjkE6jxMzPkDTxnh1eo5AQOmkfCtmJ0JAsoSTk8XnQ0AK4z4UZ9NFQBhcJhZ37kdA
+1XrzFYk9SkDjxC+WocVMQAiswQZBjE9ASmvd3LdLUUDAu7l/5fZSQBcXOMNJy1RAWscnj97MVkAMAAAA
+AABZQDFNZuB1aVtAqaS3DH4OXkB85JPra3pgQNQknEJoEWJATOvVgKjPY0DmgFxw9rhlQIFPj2t50WdA
+3ffwY78dakAPRvnHxqJsQGt/XF0JZm9AG+OuE8Q2cUACaYQ57N9yQJL41hIZsnRAL85btj+xdkDrZXj4
+tuF4QNqbTtlASHtALfOv2xTqfUDNLLitdWaAQBbb3f2E+4FAjgs5pKi3g0AmxhTUpZ6FQLoqqN+etIdA
+6BwGNBz+iUA9ufEyFoCMQB0AAAAAQI9ARvA/rOkhkUDyxvLHDsmSQKTdeOYGmZRAEi5DU8KVlkApZguh
+ksOYQCqhcww0J5tAbSNzxtfFnUDxmnael1KgQNHL+zy85aFAq89Z2sWfo0Drm5oYdYSlQEyD5Ufnl6dA
+wbaMV5/eqUDGwfKjj12sQHJ/lrYkGq9AbyHRhygNsUAE+E0JTbKyQAk4JhkTgLRA5lFVPWZ6tkB9TkfN
+kqW4QLz3GUlPBrtAdjWSl8ahvUAZ0oOg0T7AQM8T198N0MFAHAAAAACIw0Bj7E8XZGrFQLt473lSe8dA
+GxUXoEi/yUCm+RPoMjvMQMQ/Tkl39M5Aw0TIh4D40EAu9gfcppvSQLdBFIY9Z9RA0L46TCtf1kCiQ/BQ
+t4fYQPNCwV6S5dpALuTeGeF93UBB8reWIyvgQCW5d8Z5uuFAsQ8e8lZw40AAAAAAAAAAAAAAAAAAAAAA
+KAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQEAAAAAAAAAAAAAAAAAAAD//////////wkAAABGcmVxdWVu
+Y3k=
+]]></SxData>
+   </CurveVector>
+  </Curve>
+  <Curve ID="23">
+   <CurveData ID="24">
+    <Property name="Curve" value="23"/>
+    <Property name="GUID" value="{a0184f71-29ba-413a-8fb3-a53749f0e8c6}"/>
+    <Property name="LineStyle" value="auto"/>
+   </CurveData>
+   <Property name="Alpha" value="75"/>
+   <Property name="CreateTime" value="1548319643317"/>
+   <Property name="DisplayType" value="analog"/>
+   <Property name="ForceFastRender" value="false"/>
+   <Property name="GUID" value="{fe4b30ad-14f5-485e-b183-75a80231814b}"/>
+   <Property name="Hidden" value="false"/>
+   <Property name="Highlight" value="false"/>
+   <Property name="HighlightColour" value="#ff00ff"/>
+   <Property name="HighlightedDivisions" value=""/>
+   <Property name="Label" value="%DefaultLabel%"/>
+   <Property name="LineStyle" value="solid"/>
+   <Property name="MeasureSpec" value=""/>
+   <Property name="Name" value="X1-out"/>
+   <Property name="ProbeInst" value=""/>
+   <Property name="ProbePersistence" value="-1"/>
+   <Property name="RGBColour" value="255"/>
+   <Property name="Selected" value="false"/>
+   <Property name="Sequence" value="9"/>
+   <Property name="ShowPoints" value="false"/>
+   <Property name="Suffix" value=""/>
+   <Property name="UserPersistence" value="-1"/>
+   <Property name="UserProbeId" value=""/>
+   <Property name="UseSequenceColour" value="true"/>
+   <Property name="Visible" value="true"/>
+   <Property name="XAxis" value="3"/>
+   <Property name="XUnit" value="Hertz"/>
+   <Property name="YAxis" value="5"/>
+   <Property name="YUnit" value="V"/>
+   <CurveVector XExpression="Frequency" YUnits="V" YUnitsOverride="0" SourceName="ac6" Expression=":R4_P" SweepType="None" XUnitsOverride="0" AnalysisName="Small signal AC" XUnits="Hertz" XYData="0">
+    <SxData sxid="8" version="82"><![CDATA[
+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
+AAAARnJlcXVlbmN5
+]]></SxData>
+   </CurveVector>
+  </Curve>
+  <Curve ID="25">
+   <CurveData ID="26">
+    <Property name="Curve" value="25"/>
+    <Property name="GUID" value="{31b46da5-69a0-4a00-be62-9473c5f76a74}"/>
+    <Property name="LineStyle" value="auto"/>
+   </CurveData>
+   <Property name="Alpha" value="75"/>
+   <Property name="CreateTime" value="1548319655423"/>
+   <Property name="DisplayType" value="analog"/>
+   <Property name="ForceFastRender" value="false"/>
+   <Property name="GUID" value="{9c97efa2-811d-4eca-ab3e-89a5746f7e1c}"/>
+   <Property name="Hidden" value="false"/>
+   <Property name="Highlight" value="false"/>
+   <Property name="HighlightColour" value="#ff00ff"/>
+   <Property name="HighlightedDivisions" value=""/>
+   <Property name="Label" value="%DefaultLabel%"/>
+   <Property name="LineStyle" value="solid"/>
+   <Property name="MeasureSpec" value=""/>
+   <Property name="Name" value="X1-out"/>
+   <Property name="ProbeInst" value=""/>
+   <Property name="ProbePersistence" value="-1"/>
+   <Property name="RGBColour" value="32768"/>
+   <Property name="Selected" value="false"/>
+   <Property name="Sequence" value="10"/>
+   <Property name="ShowPoints" value="false"/>
+   <Property name="Suffix" value=""/>
+   <Property name="UserPersistence" value="-1"/>
+   <Property name="UserProbeId" value=""/>
+   <Property name="UseSequenceColour" value="true"/>
+   <Property name="Visible" value="true"/>
+   <Property name="XAxis" value="3"/>
+   <Property name="XUnit" value="Hertz"/>
+   <Property name="YAxis" value="5"/>
+   <Property name="YUnit" value="V"/>
+   <CurveVector XExpression="Frequency" YUnits="V" YUnitsOverride="0" SourceName="ac7" Expression=":R4_P" SweepType="None" XUnitsOverride="0" AnalysisName="Small signal AC" XUnits="Hertz" XYData="0">
+    <SxData sxid="9" version="82"><![CDATA[
+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
+Y3k=
+]]></SxData>
+   </CurveVector>
+  </Curve>
+  <Property name="GridType" value="Norm"/>
+  <Property name="GUID" value="{505e170b-1117-470a-a270-36e92afc5e6a}"/>
+  <Property name="ProbeId" value=""/>
+  <Property name="VertOrder" value="1"/>
+ </Grid>
+ <SharedAxis ID="4">
+  <Property name="GUID" value="{09137cce-0ae2-463d-b1de-c9bb3e982515}"/>
+ </SharedAxis>
+ <Property name="AcceptNewProbes" value=""/>
+ <Property name="CursorStatusDisplay" value="Graph"/>
+ <Property name="GroupTitle" value="C:\Users\user\repos\vcvc\vcvc\simulation\mic-preamp.wxsch"/>
+ <Property name="GUID" value="{0fc4670f-36d2-4214-9147-befd5ac66c3b}"/>
+ <Property name="MainCursor" value="0"/>
+ <Property name="Path" value="C:\Users\user\repos\vcvc\vcvc\simulation\mic-preamp.sxgpx"/>
+ <Property name="ProbeId" value=""/>
+ <Property name="RefCursor" value="0"/>
+ <Property name="SmallCursor" value="6"/>
+ <Property name="SourceGroup" value="ac1"/>
+ <Property name="TabTitle" value="%SourceGroup% %FirstCurve:Label%"/>
+ <Property name="TitleBar" value="%SourceGroup% (%GroupTitle%)"/>
+ <Layout topoffset="13" leftoffset="13" bottomoffset="13" rightoffset="13"/>
+</Graph>

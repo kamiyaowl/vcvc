@@ -1,6 +1,6 @@
 ********************************************************************************
 ***                                                                          ***
-*** Elements Version 8.20f (x86) - 2019/01/24 17:23                          ***
+*** Elements Version 8.20f (x86) - 2019/01/24 17:47                          ***
 *** Platform: Windows 10                                                     ***
 *** Architecture: x64                                                        ***
 *** Serial Number:                                                           ***
@@ -23,14 +23,16 @@
 .options inhibitAttoISource=1
 #SIMETRIX
 X1 C3_P R2_P X1_vsp X1_vsn R4_P TL072 pinnames: inp inn vsp vsn out
+V1 V1_P 0 3.3
 V2 X1_vsp 0 3.3
-R1 R1_P V4_P 1K
+R1 R1_P R6_N 1K
 V3 X1_vsn 0 -5
 R2 R2_P C2_P 100
-V4 V4_P 0  AC 1 0 Sin(0 10m 1k 0 0)
+V4 R6_N 0  AC 1 0 Sin(0 10m 1k 0 0)
 R3 R3_P R2_P 470
-R4 R4_P R3_P 10k
+R4 R4_P R3_P 100k
 R5 0 C3_P 10k
+R6 V1_P R6_N 4.7k
 C1 R1_P 0 10n   
 C2 C2_P 0 10u   
 C3 C3_P R1_P 100n   
@@ -84,7 +86,7 @@ VLN   0 92 DC 25
 
 ********************************************************************************
 ***                                                                          ***
-*** Starting AC analysis at 17:23                                            ***
+*** Starting AC analysis at 17:47                                            ***
 ***                                                                          ***
 *** Analysis card: .AC DEC 25 10 40k                                         ***
 ***                                                                          ***
@@ -134,7 +136,7 @@ Total iterations = 7
 Transient iterations = 0
 Transient timepoints = 0
 Accepted timepoints = 0
-Total analysis time = 0.063
+Total analysis time = 0.062
 Transient time = 0
 Matrix reordering time = 0
 L-U decomposition time = 0
@@ -143,7 +145,7 @@ Load time = 0
 Transient L-U decomp time = 0
 Transient solve time = 0
 Circuit build time = 0
-Simulator initialise time = 0
+Simulator initialise time = 0.016
 Data write time = 0
 Convergence test time = 0
 LTE time = 0
@@ -152,15 +154,15 @@ Diag. GMIN stepping iterations = 0
 Junc. GMIN stepping iterations = 0
 Source stepping iterations = 0
 PTA iterations = 0
-Number of matrix fill ins = -17
-Number of initial matrix elements = 115
-Circuit equations = 34
+Number of matrix fill ins = -20
+Number of initial matrix elements = 120
+Circuit equations = 36
 State vector size = 82
 Number of write buffer faults = 0
 
 Run statistics
 ==============
 
-Netlist read in time = 0.047
-Total run time = 0.14 seconds
-Analysis concluded 2019/01/24 17:23
+Netlist read in time = 0.031
+Total run time = 0.109 seconds
+Analysis concluded 2019/01/24 17:47
