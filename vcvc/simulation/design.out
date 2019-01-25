@@ -1,6 +1,6 @@
 ********************************************************************************
 ***                                                                          ***
-*** Elements Version 8.20f (x86) - 2019/01/24 21:54                          ***
+*** Elements Version 8.20f (x86) - 2019/01/25 23:28                          ***
 *** Platform: Windows 10                                                     ***
 *** Architecture: x64                                                        ***
 *** Serial Number:                                                           ***
@@ -37,10 +37,11 @@ V6 X2_vsp 0 4
 R5 X2_inn C4_P 1K
 V7 X2_vsn 0 -5
 R6 R6_P X2_inn 1K
+R7 R1_N 0 100k
 C1 R1_N C1_N 10u   
 C2 R2_N C2_N 10u   
 C3 R3_N C3_N 10u   
-C4 C4_P X1_inn 10u   
+C4 C4_P X1_inn 10n   
 .TRAN 10m
 .SUBCKT TL072    1 2 3 4 5
 *
@@ -90,7 +91,7 @@ VLN   0 92 DC 25
 
 ********************************************************************************
 ***                                                                          ***
-*** Starting Transient analysis at 21:54                                     ***
+*** Starting Transient analysis at 23:28                                     ***
 ***                                                                          ***
 *** Analysis card: .TRAN 10m                                                 ***
 ***                                                                          ***
@@ -136,10 +137,10 @@ is           800a         800a
 
 Nominal temperature = 27
 Operating temperature = 27
-Total iterations = 748
-Transient iterations = 740
-Transient timepoints = 371
-Accepted timepoints = 370
+Total iterations = 812
+Transient iterations = 804
+Transient timepoints = 372
+Accepted timepoints = 371
 Total analysis time = 0.047
 Transient time = 0
 Matrix reordering time = 0
@@ -158,7 +159,7 @@ Diag. GMIN stepping iterations = 0
 Junc. GMIN stepping iterations = 0
 Source stepping iterations = 0
 PTA iterations = 0
-Number of matrix fill ins = -53
+Number of matrix fill ins = -49
 Number of initial matrix elements = 218
 Circuit equations = 64
 State vector size = 152
@@ -167,6 +168,6 @@ Number of write buffer faults = 0
 Run statistics
 ==============
 
-Netlist read in time = 0.031
-Total run time = 0.11 seconds
-Analysis concluded 2019/01/24 21:54
+Netlist read in time = 0.047
+Total run time = 0.109 seconds
+Analysis concluded 2019/01/25 23:28
