@@ -1,12 +1,12 @@
 ********************************************************************************
 ***                                                                          ***
-*** Elements Version 8.20f (x86) - 2019/01/25 23:28                          ***
+*** Elements Version 8.20f (x86) - 2019/01/26 15:48                          ***
 *** Platform: Windows 10                                                     ***
 *** Architecture: x64                                                        ***
 *** Serial Number:                                                           ***
 *** User:                                                                    ***
 ***                                                                          ***
-*** TITLE:   * C:\Users\user\repos\vcvc\vcvc\simulation\hp-amp.wxsch        ***
+*** TITLE:   * C:\Users\user\repos\vcvc\vcvc\simulation\diff-in.wxsch       ***
 *** NETLIST: C:\Users\user\repos\vcvc\vcvc\simulation\design.net             ***
 ***                                                                          ***
 ********************************************************************************
@@ -22,27 +22,20 @@
 .options icres=0.001
 .options inhibitAttoISource=1
 #SIMETRIX
-X1 0 X1_inn X1_vsp X1_vsn C4_P TL072 pinnames: inp inn vsp vsn out
-V1 C1_N 0 5 Sin(1.8 2 1k 0 0)
-X2 0 X2_inn X2_vsp X2_vsn R6_P TL072 pinnames: inp inn vsp vsn out
-V2 C2_N 0 5 Sin(0 0 400 0 0)
-R1 X1_inn R1_N 1K
-V3 C3_N 0 5 Sin(0 0 3k 0 0)
-R2 X1_inn R2_N 1K
-V4 X1_vsn 0 -5
-R3 X1_inn R3_N 1K
-V5 X1_vsp 0 4
-R4 C4_P X1_inn 1k
-V6 X2_vsp 0 4
-R5 X2_inn C4_P 1K
-V7 X2_vsn 0 -5
-R6 R6_P X2_inn 1K
-R7 R1_N 0 100k
-C1 R1_N C1_N 10u   
-C2 R2_N C2_N 10u   
-C3 R3_N C3_N 10u   
-C4 C4_P X1_inn 10n   
+X1 X1_inp R1_P X1_vsp X1_vsn X1_out TL072 pinnames: inp inn vsp vsn out
+V1 C1_N 0  AC 1 0 Sin(0 0 1k 0 0)
+V2 X1_vsn 0 -5
+R1 R1_P C1_P 10k
+V3 X1_vsp 0 4
+R2 X1_out R1_P 10k
+V4 C2_N 0 5 Sin(0 1 1k 0 0)
+R3 X1_inp R5_N 10k
+R4 0 X1_inp 10k
+R5 0 R5_N 100k
+C1 C1_P C1_N 100n   
+C2 R5_N C2_N 100n   
 .TRAN 10m
+*.AC DEC 100 100 50k
 .SUBCKT TL072    1 2 3 4 5
 *
 C1   11 12 3.498E-12
@@ -91,7 +84,7 @@ VLN   0 92 DC 25
 
 ********************************************************************************
 ***                                                                          ***
-*** Starting Transient analysis at 23:28                                     ***
+*** Starting Transient analysis at 15:48                                     ***
 ***                                                                          ***
 *** Analysis card: .TRAN 10m                                                 ***
 ***                                                                          ***
@@ -118,18 +111,18 @@ Matrix Solver             UF KLU Version 1.1
 ********************************************************************************
 Model parameters for devices of type JFET2
 ==========================================
-Model:       X1.JX        X2.JX        
+Model:       X1.JX        
 
-beta         270.1u       270.1u       
-is           15p          15p          
-vto          -1           -1           
+beta         270.1u       
+is           15p          
+vto          -1           
 
 
 Model parameters for devices of type Diode
 ==========================================
-Model:       X1.DX        X2.DX        
+Model:       X1.DX        
 
-is           800a         800a         
+is           800a         
 
 
 Analysis statistics
@@ -137,11 +130,11 @@ is           800a         800a
 
 Nominal temperature = 27
 Operating temperature = 27
-Total iterations = 812
-Transient iterations = 804
-Transient timepoints = 372
-Accepted timepoints = 371
-Total analysis time = 0.047
+Total iterations = 272
+Transient iterations = 264
+Transient timepoints = 133
+Accepted timepoints = 132
+Total analysis time = 0.031
 Transient time = 0
 Matrix reordering time = 0
 L-U decomposition time = 0
@@ -159,15 +152,15 @@ Diag. GMIN stepping iterations = 0
 Junc. GMIN stepping iterations = 0
 Source stepping iterations = 0
 PTA iterations = 0
-Number of matrix fill ins = -49
-Number of initial matrix elements = 218
-Circuit equations = 64
-State vector size = 152
+Number of matrix fill ins = -31
+Number of initial matrix elements = 117
+Circuit equations = 35
+State vector size = 76
 Number of write buffer faults = 0
 
 Run statistics
 ==============
 
-Netlist read in time = 0.047
-Total run time = 0.109 seconds
-Analysis concluded 2019/01/25 23:28
+Netlist read in time = 0.031
+Total run time = 0.078 seconds
+Analysis concluded 2019/01/26 15:48
